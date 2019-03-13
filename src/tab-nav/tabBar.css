@@ -1,0 +1,35 @@
+.g-tabc {
+  margin-top: 2.6667vw
+}
+
+
+/* TabBar 组件 */
+
+.m-tab {}
+
+
+.m-tab .nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: white;
+  border-top: 0.1333vw solid black;
+
+  height: 13.33333vw;
+  display: flex;
+}
+
+.m-tab .item {
+  flex: 1;
+  font-size: 2vw;
+}
+
+
+.f-ctr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
